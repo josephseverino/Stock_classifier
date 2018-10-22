@@ -77,8 +77,15 @@ As you can see from the distributions below there is far more opportunity to max
   <img src="featureSel.png" )
 </p>
 
-#### Variance
-<span style="font-family:Papyrus"> From the above chart we can see larger sample sizes such as 100,000 explore more of the other bandits even with low epsilon values. Although, the optimal epsilon seemed to be around .01 to .1. These looked to be the best estimates of the normal distribution with mean 1.05. Thus, these look to have lowest variance with there estimates. Probability given N (100,000 and 10,000) iterations were calculated by taking epsilon times N divided by three, which is the probability of exploring one of other bandits given its respective epsilon. In thoery the larger the sample size the better approximation to the mean we get. However, the cost to sample larger numbers could be costly, so we must minimize that as much as possible.
+#### Testing Our Models
+- [x] Model Performance
+
+<p align="center">
+  <h3>Model Performance </>
+  <img src="performance.png" )
+</p>
+
+<span style="font-family:Papyrus"> From the above chart we can see how well each of our models did. Accuracy here is showing how well it predicted the exact class or quartile range. Alternatively, Cohen's Kappa ranges from -1 to 1 and indicates better than random chances above 1 and worse than random guessing less than 1. In all cases, we did better than random guessing. However, when I built my Ensemble model, I choose to only take in the models from Random Forests and AdaBoost since they were the best predictors. Also, as I will discuss later, I will only be concerned with how well each one predicts the liklihood of being above Q1. I do this because it has higher probabilities when doing it in this manner. 
 </span>
 
 
