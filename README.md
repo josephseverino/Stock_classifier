@@ -31,7 +31,7 @@ As you can see from the distributions below there is far more opportunity to max
   <img src="distribution.png" )
 </p>
 
-## Features This Problem
+## Features Engineering
 
 <span style="font-family:Papyrus"> For this project I used TA-Lib (technical Analysis Library) to create most of my features. Below is chart showing all the features engineered to do my analysis. Notice that for some of these features, I had several different time intervals for them. I did this in order to capture both short and and long term indicators of stocks. This is similar to the techniques used by professional Day Traders on the Market. 
 </span>
@@ -42,7 +42,7 @@ As you can see from the distributions below there is far more opportunity to max
 </p>
 
 - [x] Introduction
-- [ ] Explore large and small values of Epsilon
+- [ ] Exploratory Data Analysis
 - [ ] Explore normal distributions with closer means
 - [ ] Conclusion of my findings
 
