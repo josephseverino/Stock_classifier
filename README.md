@@ -4,9 +4,11 @@
 # Inroduction: Multi-Armed Bandit Problem
 
 ### Problem Statement
+
 <span style="font-family:Papyrus"> 
 Is it possible to find non-random patterns in a given stock with significant accuracy in order to time the market better than pure randomness?
 </span>
+
 #### Introduction
 
 <span style="font-family:Papyrus"> 
