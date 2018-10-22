@@ -41,10 +41,17 @@ As you can see from the distributions below there is far more opportunity to max
   <img src="features.png" )
 </p>
 
+### Outline
+
 - [x] Introduction
 - [ ] Exploratory Data Analysis
-- [ ] Explore normal distributions with closer means
-- [ ] Conclusion of my findings
+- [ ] Feature Selection
+- [ ] Model Performance
+- [ ] Ensemble & Results
+- [ ] Test vs Train distributions
+- [ ] Future Studies
+- [ ] Summary
+
 
 
 ### Explore Epsilon Values
