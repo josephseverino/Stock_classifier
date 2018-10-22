@@ -85,6 +85,16 @@ As you can see from the distributions below there is far more opportunity to max
   <img src="performance.png" )
 </p>
 
+#### Confusion Matrix of Models
+
+<span style="font-family:Papyrus"> Below shows the confusion matrices for my models. notice a few things about the predictions. First, understanding how I personally calculated my accuracy is important. Using each column as my predictor, I counted all classifications actually valued above Q1 to be accurate and ones that were actually below Q1 to be inaccurate. I did this in part because we can use these percentages as likelihoods of being correct at knowing the minimal high for that given day. Additionally, we can use that information to make informed decisons on holding out for higher gains on certain days to reap larger returns. Second, the ensemble model that I used didn't do any better than my component models. The ensemble was build using the probabilities of each target from the first two models along with the top 4 predictive features. This resulted in the ensemble to being averaged down for an overall accuracy. lastly, in future work I would ensemble using voting; taking in only the best predictor columns form each model. Also, with these predictors from various models, I could optimally buy the highest probability stocks on given days to maximize returns.
+</span>
+
+<p align="center">
+  <h3>Confusion Matrices </>
+  <img src="confusion.png" )
+</p>
+
 <span style="font-family:Papyrus"> From the above chart we can see how well each of our models did. Accuracy here is showing how well it predicted the exact class or quartile range. Alternatively, Cohen's Kappa ranges from -1 to 1 and indicates better than random chances above 1 and worse than random guessing less than 1. In all cases, we did better than random guessing. However, when I built my Ensemble model, I choose to only take in the models from Random Forests and AdaBoost since they were the best predictors. Also, as I will discuss later, I will only be concerned with how well each one predicts the liklihood of being above Q1. I do this because it has higher probabilities when doing it in this manner. 
 </span>
 
