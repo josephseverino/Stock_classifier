@@ -31,10 +31,15 @@ As you can see from the distributions below there is far more opportunity to max
   <img src="distribution.png" )
 </p>
 
-## The Problem
+## Features This Problem
 
-<span style="font-family:Papyrus"> The problem I am exploring is with three different bandits initialized with normal distributions. Later I will explore a more complicated version of the problem which uses other distributions (e.g. Exponential, Poisson etc.). Below is the order in which I will Explore this problem.
+<span style="font-family:Papyrus"> For this project I used TA-Lib (technical Analysis Library) to create most of my features. Below is chart showing all the features engineered to do my analysis. Notice that for some of these features, I had several different time intervals for them. I did this in order to capture both short and and long term indicators of stocks. This is similar to the techniques used by professional Day Traders on the Market. 
 </span>
+
+<p align="center">
+  <h3>Features List </>
+  <img src="features.png" )
+</p>
 
 - [x] Introduction
 - [ ] Explore large and small values of Epsilon
