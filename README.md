@@ -47,7 +47,6 @@ As you can see from the distributions below there is far more opportunity to max
 - [ ] Exploratory Data Analysis
 - [ ] Feature Selection
 - [ ] Model Performance
-- [ ] Ensemble & Results
 - [ ] Test vs Train distributions
 - [ ] Future Studies
 - [ ] Summary
@@ -101,6 +100,15 @@ As you can see from the distributions below there is far more opportunity to max
 </p>
 
 
+#### More Results
+
+<span style="font-family:Papyrus"> Below we are looking at the distributions of my model predictions vs open to open price ROI. Notice that the model's predictions have a much higher expected value (mean) than the buy and hold over time. This can be misleading, however, it still shows us that we have a higher likelihood to capitalize using these models than random guesing of buying and selling each day. The percentages are showing the average percentage gain from wach distribution. This information could be useful for a Day Trader to understand their liklihood of returns for that day decent prices to put stop limits on their stock. Stop limits are prices at which a trader chooses to buy or sell an equity once the price of that equity reaches that limit. 
+</span>
+
+<p align="center">
+  <h3>More Distributions </>
+  <img src="results.png" )
+</p>
 
 
 ## Conclusion
