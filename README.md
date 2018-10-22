@@ -48,7 +48,7 @@ As you can see from the distributions below there is far more opportunity to max
 - [ ] Feature Selection
 - [ ] Model Performance
 - [ ] Test vs Train distributions
-- [ ] Conclusion
+- [ ] Conclusion: What I learned
 
 
 
@@ -117,7 +117,7 @@ As you can see from the distributions below there is far more opportunity to max
 
 <p align="center">
   <h3>Accuracy: Train vs Test distributions </>
-  <img src="trainvstest.png" )
+  <img src="testvstrain.png" )
 </p>
 
 
