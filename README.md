@@ -63,6 +63,11 @@ As you can see from the distributions below there is far more opportunity to max
   <h3>Top 3 Predictors vs High ROI (Return on Investment) </>
   <img src="top3.png" )
 </p>
+    
+<p align="center">
+  <h3>Highest 10 days ROI </>
+  <img src="top10.png" )
+</p>
 
 #### Decreasing our Feature Space 
 - [x] Feature Selection
@@ -124,7 +129,10 @@ As you can see from the distributions below there is far more opportunity to max
 ## Conclusion
 - [x] Conclusion: What I learned.
 
-<span style="font-family:Papyrus"> After doing many experiments I was able to learn a few things about this problem. First, epsilon in this case is the probability that were explore the bandits that look to have a smaller sample mean. Thus, we call this the epsilon-greedy problem. Alternativly, one minus epsilon equals the probability that the agent will eploit the perceived largest sample mean. Next, I noticed higher eploration of all the bandits produces lower variance of mean estimates. Consequently, there are two ways to collect larger samples of all the bandits. One is by increasing your epsilon values and two is by increasing the number of iterations you play with the bandits. The downside to increasing epsilon too much was it would never converge on the highest bandit. The downside to larger iterations of play is it may be costly in real-life practice. Thus, the optimal range for epsilon was from .01 to .1. Although, it seemed reasonable to use a psuedo-decay epsilon to maximize effectiveness of minimizing variance of sample means and maximizing the highest returns. I am still working on the last problem, but see code for more info related to this problem.  
-</span>
+* Random Forest and AdaBoost were best predictors
+* Similar distributions of test vs train produce higher Accuracy
+* Machine Learning can do better than random guessing
+* Highest days for ROI were in highly down times for stock
+
 
 
