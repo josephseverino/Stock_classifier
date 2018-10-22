@@ -63,7 +63,12 @@ As you can see from the distributions below there is far more opportunity to max
   <h3>Top 3 Predictors vs High ROI (Return on Investment) </>
   <img src="top3.png" )
 </p>
-    
+ 
+#### Top 10 ROI days
+
+<span style="font-family:Papyrus"> Below, notice the top highest ROIs were on days that very depressed markets and after previous days that were high losses (current_roi).
+</span>  
+  
 <p align="center">
   <h3>Highest 10 days ROI </>
   <img src="top10.png" )
