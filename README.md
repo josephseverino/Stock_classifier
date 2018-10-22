@@ -27,8 +27,8 @@ As you can see from the distributions below there is far more opportunity to max
 </span>
 
 <p align="center">
-  <h3>Compare Epsilon and Convergance </>
-  <img src="../images/distribution.png" )
+  <h3>Compare Distributions </>
+  <img src="distribution.png" )
 </p>
 
 ## The Problem
