@@ -84,6 +84,8 @@ As you can see from the distributions below there is far more opportunity to max
   <h3>Model Performance </>
   <img src="performance.png" )
 </p>
+
+#### Metrics
     
 <span style="font-family:Papyrus"> From the above chart we can see how well each of our models did. Accuracy here is showing how well it predicted the exact class or quartile range. Alternatively, Cohen's Kappa ranges from -1 to 1 and indicates better than random chances above 1 and worse than random guessing less than 1. In all cases, we did better than random guessing. However, when I built my Ensemble model, I choose to only take in the models from Random Forests and AdaBoost since they were the best predictors. Also, as I will discuss later, I will only be concerned with how well each one predicts the liklihood of being above Q1. I do this because it has higher probabilities when doing it in this manner. 
 </span>
