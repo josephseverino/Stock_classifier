@@ -48,8 +48,7 @@ As you can see from the distributions below there is far more opportunity to max
 - [ ] Feature Selection
 - [ ] Model Performance
 - [ ] Test vs Train distributions
-- [ ] Future Studies
-- [ ] Summary
+- [ ] Conclusion
 
 
 
@@ -108,6 +107,17 @@ As you can see from the distributions below there is far more opportunity to max
 <p align="center">
   <h3>More Distributions </>
   <img src="results.png" )
+</p>
+
+#### Train vs Test Distributions
+- [x] Test vs Train distributions
+
+<span style="font-family:Papyrus"> After looking at various stocks I wanted to know the relationship of test vs train distributions. To study this, I used p-values from t-tests to visualize this I then broke up my test and train sets in various ranges to test these conditions. As you can see, accuracy increases when p-values are larger or when train and test sets are more similiar in variance and mean. The only contrary evidence we have to this is  when the mean is higher for the test set. This makes sense though. 
+</span>
+
+<p align="center">
+  <h3>Accuracy: Train vs Test distributions </>
+  <img src="trainvstest.png" )
 </p>
 
 
