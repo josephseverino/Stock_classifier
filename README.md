@@ -23,7 +23,7 @@ This project will incorporate several different types of classification models u
 #### Why This Approach?
 
 <span style="font-family:Papyrus"> 
-As you can see from the distributions below there is far more opportunity to maximize your returns from using the highs on the various days as opposed to only using the open to close or open to open prices as buy and sell opportunities. The one major issue with using the highs instead of the closes, would be that we don't really know when those prices occurred. It is much easier to pin down that price at the beginnning or end of the trading day when using the open to open trading targets. However, if we split our targets into quartiles then we now have a little more information about those prices. That is to say we know generally the probability which those prices occur. For example, everything above quartile 1 (Q1) will likely occur 75 percent of the time. The major assumption we making here is that our training set distributions are similar to our test set distributions. 
+As you can see from the distributions below there is far more opportunity to maximize your returns from using the highs on the various days as opposed to only using the open to close or open to open prices as buy and sell opportunities. The one major issue with using the highs instead of the closes, would be that we don't really know when those prices occurred. It is much easier to pin down that price at the beginnning or end of the trading day when using the open to open trading targets. However, if we split our targets into quartiles then we now have a little more information about those prices. That is to say we know generally the probability which those prices occur. For example, everything above quartile 1 (Q1) will likely occur 75 percent of the time. The major assumption we making here is that our training set distributions are similar to our test set distributions. We will explore this assumption in more detail later in our analysis.
 </span>
 
 <p align="center">
@@ -54,21 +54,13 @@ As you can see from the distributions below there is far more opportunity to max
 
 
 
-### Explore Epsilon Values
-- [x] Explore large and small values of Epsilon
+### EDA: Top 3 Predictors
+- [x] Exploratory Data Analysis
 
-```python
-c_25 = run_experiment(1.0,2.0,3.0, 0.5, 100000)
-c_25 = run_experiment(1.0,2.0,3.0, 0.25, 100000)
-c_1 = run_experiment(1.0,2.0,3.0, 0.1, 100000)
-c_05 = run_experiment(1.0,2.0,3.0, 0.05, 100000)
-c_01 = run_experiment(1.0,2.0,3.0, 0.01, 100000)
-c_001 = run_experiment(1.0,2.0,3.0, 0.001, 100000)
 
-```
 <p align="center">
-  <h3>Compare Epsilon and Convergance </>
-  <img src="graphs_bandit_1.png" )
+  <h3>Top 3 Predictors vs High ROI (Return on Investment) </>
+  <img src="top3.png" )
 </p>
 
 <div>
