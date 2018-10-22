@@ -57,6 +57,9 @@ As you can see from the distributions below there is far more opportunity to max
 ### EDA: Top 3 Predictors
 - [x] Exploratory Data Analysis
 
+<span style="font-family:Papyrus"> Below, you can see the positive and negative relationships between the features and ROI high targets. For the time series forcast (TSF200) we see a strong positive correlation which makes sense if we forcast a stock to increase in value, we should expect it to do so or vice-versa. Next, we have moving average for 60 days (ma60) which takes the moving average and divedes it by the Adjusted Close price of the stock. Thus, when you see a value (x-axis) larger than 1, then you know the price has crossed below the MA line and is "likely" to regress back above it. This is why we see as the MA increases, our ROI also has a tendancy to increase as well. Last, we see the RSI (relative strength index) which is a fundamental momentum indicator for traders to use to indicate whether a stock is over-bought or over-sold. Conventionally, values over 70 are over-bought and values under 30 are over-sold. Hence, the negative relationship. Moreover, we would say that as RSI values increase, we seem to find the stock is over-bought and will 'likely' sell off, and conversly as the RSI decreases we see the stock is over-sold and will 'likely' regress back up with more buying volume. 
+</span>
+
 
 <p align="center">
   <h3>Top 3 Predictors vs High ROI (Return on Investment) </>
