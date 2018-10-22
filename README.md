@@ -1,8 +1,5 @@
 # Stock_classifier
 
-
-# Inroduction: Multi-Armed Bandit Problem
-
 ### Problem Statement
 
 <span style="font-family:Papyrus"> 
@@ -28,6 +25,12 @@ This project will incorporate several different types of classification models u
 <span style="font-family:Papyrus"> 
 As you can see from the distributions below there is far more opportunity to maximize your returns from using the highs on the various days as opposed to only using the open to close or open to open prices as buy and sell opportunities. The one major issue with using the highs instead of the closes, would be that we don't really know when those prices occurred. It is much easier to pin down that price at the beginnning or end of the trading day when using the open to open trading targets. However, if we split our targets into quartiles then we now have a little more information about those prices. That is to say we know generally the probability which those prices occur. For example, everything above quartile 1 (Q1) will likely occur 75 percent of the time. The major assumption we making here is that our training set distributions are similar to our test set distributions. 
 </span>
+
+<p align="center">
+  <h3>Compare Epsilon and Convergance </>
+  <img src="../images/distribution.png" )
+</p>
+
 ## The Problem
 
 <span style="font-family:Papyrus"> The problem I am exploring is with three different bandits initialized with normal distributions. Later I will explore a more complicated version of the problem which uses other distributions (e.g. Exponential, Poisson etc.). Below is the order in which I will Explore this problem.
